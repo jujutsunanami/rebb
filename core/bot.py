@@ -31,7 +31,7 @@ class Bot(TelegramClient):
         self,
         api_id=None,
         api_hash=None,
-        bot_token=2033178773:AAHAbWhPoKgc-sH7QqOb1gTf1wOBSgtdTbg,
+        bot_token=None,
         logger: Logger = LOGS,
         log_attempt=True,
         exit_on_error=True,
